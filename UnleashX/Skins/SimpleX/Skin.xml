@@ -1,0 +1,96 @@
+<Skin name="SimpleX 0.1">
+	<Information>
+		<Author>si_kabayan</Author>
+		<Copyright>Copyright 2023</Copyright>
+		<Version>0.1</Version>
+	</Information>
+  <LoadingScreen ShowInfo="False" />
+	<Main Globe="True" Orb="False">
+    <Font>XBox_Book_11.xpr</Font>
+    <!-- Border for games cover/icon. -->
+    <Shape Type="Rectangle" Left="45" Top="74" Width="202" Height="285" BorderColor="0xFFFFFFFF" />
+    <!-- Image source: https://redd.it/flif3q -->
+    <Image Left="46" Top="75" Width="200" Height="283">Icon.jpg</Image>
+    <!-- Image from GameIcon will always on top. -->
+    <Image Left="46" Top="75" Width="200" Height="283" Source="GameIcon" />
+    <Menu Smooth="True" ShowIcon="False" Rotate="True">
+      <font>XBox_Book_17.xpr</font>
+		 	<ItemPos Left="290" Top="75" />
+			<ItemPos Left="290" Top="117" />
+			<ItemPos Left="290" Top="159" />
+			<ItemPos Left="290" Top="201" />
+			<ItemPos Left="290" Top="243" />
+			<ItemPos Left="290" Top="285" />
+			<ItemPos Left="290" Top="327" />
+		</Menu>
+		<Text Left="605" Top="430" Align="Right" Color="0xFF73AA10" Source="IP" />
+		<Text Left="45" Top="430" Align="Left" Color="0xFF73AA10" Source="$DateTime$" />
+	</Main>
+
+	<ColorScheme Name="Default">
+		<!-- Music menu playlist screen -->
+		<MMActiveForeColor>0xBFFFFFFF</MMActiveForeColor>
+		<MMForeColor>0xBFFFFFFF</MMForeColor>
+		<MMDarkBackColor>0xFF052500</MMDarkBackColor>
+		<MMLightBackColor>0xFF052500</MMLightBackColor>
+		<MM_BORDERCOLOR>0x7FFFFFFF</MM_BORDERCOLOR>
+		<!-- Visualisation colour -->
+		<MMDarkBarColor>0x7FFFFFFF</MMDarkBarColor>
+		<!-- Spectrum bar -->
+		<MMBarBackColor>0x7FFFFFFF</MMBarBackColor>
+		<MMOffForeColor>0x7FFFFFFF</MMOffForeColor>
+		<MMLightBarColor>0x7FFFFFFF</MMLightBarColor>
+		<!-- Text editor window -->
+		<WINDOWBACKCOLOR>0xFFFFFFFF</WINDOWBACKCOLOR>
+		<WINDOWFORECOLOR>0xFF000000</WINDOWFORECOLOR>
+		<!-- Background effect colours -->
+		<AMBIENT_FOGCOLOR>0xFF052500</AMBIENT_FOGCOLOR>
+		<AMBIENT_SKYCOLOR>0xFF008000</AMBIENT_SKYCOLOR>
+		<AMBIENT_CELLCOLOR>0x061A920A</AMBIENT_CELLCOLOR>
+		<!-- Please wait overlay, menu header colour eg... -->
+		<CAPTION_TEXTCOLOR>0xFFFFFF00</CAPTION_TEXTCOLOR>
+		<CAPTION_BACKCOLOR>0xFF28590F</CAPTION_BACKCOLOR>
+		<!-- Dialogs, ie, Batch process and progress bars eg... -->
+		<DIALOG_BORDERCOLOR>0xFF008000</DIALOG_BORDERCOLOR>
+		<DIALOG_BACKCOLOR>0xFF052500</DIALOG_BACKCOLOR>
+		<DIALOG_INNER_BORDERCOLOR>0xFFFFE2B4</DIALOG_INNER_BORDERCOLOR>
+		<DIALOG_INNER_BACKCOLOR>0xE1072700</DIALOG_INNER_BACKCOLOR>
+		<DIALOG_TEXTCOLOR>0xFFFFFFFF</DIALOG_TEXTCOLOR>
+		<DIALOG_DISABLEDTEXT>0x55FFFFFF</DIALOG_DISABLEDTEXT>
+		<!-- Settings menu -->
+		<OPTION_TEXTCOLOR>0xFFFFFFFF</OPTION_TEXTCOLOR>
+		<OPTION_ACTIVETEXTCOLOR>0xFFFFFF00</OPTION_ACTIVETEXTCOLOR>
+		<OPTION_ACTIVEBACKCOLOR>0xFF008000</OPTION_ACTIVEBACKCOLOR>
+		<!-- Dialogs, ie, Yes/no buttons eg... -->
+		<BUTTON_BORDERCOLOR>0xFF008000</BUTTON_BORDERCOLOR>
+		<BUTTON_TEXTCOLOR>0xFF77AB99</BUTTON_TEXTCOLOR>
+		<BUTTON_BACKCOLOR>0xFF052500</BUTTON_BACKCOLOR>
+		<BUTTON_ACTIVETEXTCOLOR>0xFFFFFFFF</BUTTON_ACTIVETEXTCOLOR>
+		<BUTTON_ACTIVEBACKCOLOR>0xFF73AA10</BUTTON_ACTIVEBACKCOLOR>
+		<!-- Keyboard -->
+		<!-- Button background -->
+		<KB_KEYBG_HIGHLIGHT>0xCC00C000</KB_KEYBG_HIGHLIGHT>
+		<KB_KEYBG_DISABLED>0xFFC0C0C0</KB_KEYBG_DISABLED>
+		<!-- Disabled button -->
+		<KB_KEY_PRESSED>0xFF808080</KB_KEY_PRESSED>
+		<!-- Letters -->
+		<KB_KEY_NORMAL>0xFF000000</KB_KEY_NORMAL>
+		<!-- Can see me to see where this is -->
+		<KB_KEY_DISABLED>0xFF808080</KB_KEY_DISABLED>
+		<!-- Selected border -->
+		<KB_KEY_ACTIVEBORDER>0xFFFFFF00</KB_KEY_ACTIVEBORDER>
+		<!-- Text area text -->
+		<KB_KEY_TEXTCOLOR>0xFF000000</KB_KEY_TEXTCOLOR>
+		<!-- Text area -->
+		<KB_KEY_TEXTBACKCOLOR>0xFFFFFFFF</KB_KEY_TEXTBACKCOLOR>
+		<!-- Text area border -->
+		<KB_KEY_TEXTBORDERCOLOR>0xFFFFFF00</KB_KEY_TEXTBORDERCOLOR>
+		<!-- Main menu -->
+		<MENU_TEXTCOLOR>0xFF73AA10</MENU_TEXTCOLOR>
+		<MENU_ACTIVETEXTCOLOR>0xFFFFFFFF</MENU_ACTIVETEXTCOLOR>
+		<MENU_BORDERCOLOR>0xFFFFFFFF</MENU_BORDERCOLOR>
+		<MENU_BACKCOLOR>0xFFFFFFFF</MENU_BACKCOLOR>
+		<MENU_ACTIVEBACKCOLOR>0x00000000</MENU_ACTIVEBACKCOLOR>
+		<MENU_ACTIVEBORDERCOLOR>0x00000000</MENU_ACTIVEBORDERCOLOR>
+	</ColorScheme>
+</Skin>

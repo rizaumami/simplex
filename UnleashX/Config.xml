@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UnleashX>
+  <Settings>
+    <MSDashBoard>C:\Xboxdash.xbe</MSDashBoard>
+    <Password MaxTries="3"></Password>
+    <Network Enable="Yes" Type="Static">
+      <IP>192.168.0.6</IP>
+      <Subnet>255.255.255.0</Subnet>
+      <Gateway>192.168.0.1</Gateway>
+      <!-- Insignia DNS -->
+      <DNS1>192.168.20.87</DNS1>
+      <DNS2>1.1.1.1</DNS2>
+      <AutoDetect>Yes</AutoDetect>
+    </Network>
+    <FTP Enable="Yes">
+      <User>xbox</User>
+      <Password>xbox</Password>
+      <Port>21</Port>
+      <MaxUsers>10</MaxUsers>
+      <AllowAnon>No</AllowAnon>
+      <Greeting>Welcome to XBOX FTP Server</Greeting>
+      <Boost>Yes</Boost>
+    </FTP>
+    <Newsfeed Enable="False" Interval="30">
+      <URL>www.xbox-scene.com/xbox1data/xbox-scene.xml</URL>
+      <URL>www.xbins.org/xbins.xml</URL>
+    </Newsfeed>
+    <Preference>
+      <Games AutoLaunch="No" />
+      <DVD AutoLaunch="No">E:\Applications\DVDX\default.xbe</DVD>
+      <AudioCD AutoLaunch="No">C:\Xboxdash.xbe</AudioCD>
+      <Data AutoLaunch="No" />
+      <SNTP Synchronize="Yes">139.143.5.30</SNTP>
+      <UseFahrenheit>No</UseFahrenheit>
+      <FanSpeed>2.00</FanSpeed>
+      <ScreenSaver Wait="300" Type="1" EnableBGM="No">
+        <Text>ogXbox</Text>
+      </ScreenSaver>
+      <AutoTurnOff>0</AutoTurnOff>
+      <EnableDriveF>True</EnableDriveF>
+      <EnableDriveG>True</EnableDriveG>
+      <LEDColor>Default</LEDColor>
+      <Skin Path="E:\Dashboards\Unleashx\Skins">SimpleX</Skin>
+      <TempThreshold>50</TempThreshold>
+      <LiveUpdate AutoCheck="No"></LiveUpdate>
+      <VideoSettings Use480P="No" Use720P="No" Use1080I="No" Widescreen="No" Soften="No" Use16bit="False" FilterLevel="0" UsePAL60="Yes" FastRefresh="Yes"></VideoSettings>
+      <AutoVideoMode MultiRegion="NTSC M" UsePAL60="Yes">Yes</AutoVideoMode>
+      <AutoSetTime>Yes</AutoSetTime>
+      <Use24HFormat>Yes</Use24HFormat>
+      <ContextMenu LinkToSave="Yes" AllowItemEdit="No"></ContextMenu>
+    </Preference>
+    <Shortcut></Shortcut>
+    <Audio>
+      <EnableSoundTrack Enable_5_1="No">Yes</EnableSoundTrack>
+      <MusicVolume>100</MusicVolume>
+      <SoundVolume>100</SoundVolume>
+    </Audio>
+  </Settings>
+  <Menu>
+    <List Text="Games" Sort="On" DelayLoad="False">
+      <Path>F:\Games</Path>
+      <Path>G:\Games</Path>
+    </List>
+    <Item Action="SavesManager">Games Save</Item>
+    <List Text="Emulators" Sort="On" DelayLoad="True">
+      <Path>F:\Emulators</Path>
+      <Path>G:\Emulators</Path>
+    </List>
+    <List Text="Applications" Sort="On" DelayLoad="True">
+      <Path>E:\Applications</Path>
+    </List>
+    <List Text="System" Sort="No">
+      <Item Action="Filemanager">File Manager</Item>
+      <List Text="Dashboards" Sort="On" Auto="On">
+        <Path>E:\Dashboards</Path>
+      </List>
+      <Item Action="Settings">Settings</Item>
+      <Item Action="Skins">Skins</Item>
+      <List Text="Network" Sort="Off">
+        <Item Action="FTPStop">Stop FTP Server</Item>
+        <Item Action="FTPStart">Start FTP Server</Item>
+        <Item Action="FTPReset">Reset FTP Server</Item>
+        <Item Action="NETReset">Restart Network</Item>
+      </List>
+      <List Text="Copy Disc to HDD" Sort="Off" Batch="True">
+        <Item Action="AskUser" Arg1="You sure??">Proceed with copying the disc to the HDD? If there is not enough space on the E partition, the F partition will be used instead. If not enough space is found there the G partition will be used, if it exists.</Item>
+        <Item Action="CopyDVD">No disc found.</Item>
+      </List>
+      <List Text="Clear Cache" Sort="Off" Batch="True">
+        <Item Action="AskUser" Arg1="Clear CACHE?">Doing this can help with applications or games that crash or refusing to boot.</Item>
+        <Item Action="Copy" Arg1="Dummy" Arg2="E:\CACHE" />
+        <Item Action="Delete" Arg1="E:\CACHE" />
+        <Item Action="Copy" Arg1="Dummy" Arg2="E:\CACHE" />
+        <Item Action="Format" Arg1="X" />
+        <Item Action="Format" Arg1="Y" />
+        <Item Action="Format" Arg1="Z" />
+        <Item Action="MessageBox" Arg1="Complete">The CACHE has been cleared!</Item>
+      </List>
+      <List Text="Clear Recent list" Sort="Off" Batch="True">
+        <Item Action="AskUser" Arg1="Clear Recent list?">Doing this will remove one of the fastest way to access your recently played games or opened applications.</Item>
+        <List>
+          <Item Action="Rename" arg1="E:\UDATA\9e115330\0064122817A8\recent.dat" arg2="E:\UDATA\9e115330\0064122817A8\recent.da">Recent list already cleared.</Item>
+          <Item Action="Rename" arg1="E:\UDATA\9e115330\0064122817A8\recent.da" arg2="E:\UDATA\9e115330\0064122817A8\recent.dat" />
+        </List>
+        <Item Action="Delete" Arg="E:\UDATA\9e115330\0064122817A8\recent.dat" />
+        <Item Action="MessageBox" Arg1="Complete">Recent list cleared, this may require you to reload the dashboard if list is still populated.</Item>
+      </List>
+      <List Text="Reset UnleashX" Password="Xbox" Sort="Off" Batch="True">
+        <Item Action="AskUser" Arg1="WARNING!">Restore UnleashX to its initial state.\nDo not interrupt, or it will render your xbox useless.\n\nDo you have proper recovery methods?\nIf not, please hit that No button.</Item>
+        <Item Action="Delete" Arg1="E:\Dashboards\UnleashX\Skins\SimpleX" />
+        <Item Action="Unzip" Arg1="E:\Dashboards\UnleashX\UnleashX.zip" Arg2="E:\Dashboards\UnleashX" />
+        <Item Action="PowerCycle" />
+      </List>
+    </List>
+    <List Text="Help" Sort="On">
+      <List Text="About" Batch="True">
+        <Item Action="MessageBox" Arg1="About">Sometimes the Help text isn't fully displayed. \nIf you found out the window is much bigger than its contained text:\nrestart UnleashX by going to main menu and \nselect "Power" then "Restart UnleashX".\n\nWant to contribute or raise an issue?\nhttps://github.com/rizaumami/simplex</Item>
+      </List>
+      <List Text="Boot in Safe Mode" Batch="True">
+        <Item Action="MessageBox" Arg1="Boot in Safe Mode">Press and hold "Back" button to ignore video settings\nand force the dash to boot at 480i.\n\nHolding the back button will also ignore the calibration settings.</Item>
+      </List>
+      <List Text="Shortcuts" Sort="On">
+        <List Text="Dashboard" Sort="Off" Batch="True">
+          <Item Action="MessageBox" Arg1="Dashboard">Black+LThumbPress = Screenshot\nBlack+DPadRight = Cycle newsfeed\nA = Select\nB or Back = Cancel or back\nX = Recent List\nY = System Info\nStart = Quick Action\nDpad Up or Down = Move up or down\nThumb or Trigger = Quick scroll\nBlack = Toggle preview\nRThumbPress = Windowed or fullscreen</Item>
+        </List>
+        <List Text="File Manager" Sort="Off" Batch="True">
+          <Item Action="MessageBox" Arg1="File Manager">RThumbPress = Single or double pane\nLTrigger = Left pane\nRTrigger = Right pane\nStart or White = Options\nBlack = Invert selection\nA = 'Display' the highlighted item (bmp, jpg, xpr, xbx, zip/xip, rar, xmv, wmv)</Item>
+        </List>
+        <List Text="Music Player" Sort="Off" Batch="True">
+          <Item Action="MessageBox" Arg1="Music Player">White = Show Player\nBlack or Back or B = Hide Player\nStart = Audio Options\nDPad L or R = Navigate Menu\nWhite + DpadRight = Next Track\nWhite + DpadLeft = Previous Track\nWhite + DpadUp = Next Album\nWhite + DpadDown = Previous Album\nRThumbPress = Toggle Playlist\nLT or DpadUp = Move Up in Playlist\nRT or DpadDown = Move Down in Playlist</Item>
+        </List>
+        <List Text="Skins Selections" Sort="Off" Batch="True">
+          <Item Action="MessageBox" Arg1="Skins Selections">RTumbPress = Toggles preview\nA = Select the highlighted skin\nBack (after selecting a skin) = use the skin until next reboot\nA or B or Black (after selecting a skin) = use the skin permanently</Item>
+        </List>
+        <List Text="Text Editor" Sort="Off" Batch="True">
+          <Item Action="MessageBox" Arg1="Text Editor">Dpad = Move In Text Document\nLThumb = Move In Keyboard Menu\nA = Select Highlighted Letter\nB = Delete Character\nX = Move Up\nY = Move Down\nWhite = Virtual Keyboard\nBlack = Tab\nLT or RT = Quick Scroll\nRThumbPress = Switch to LThumb or Dpad\nBack = Exit\nStart = Menu</Item>
+        </List>
+        <List Text="Virtual Keyboard" Sort="Off" Batch="True">
+          <Item Action="MessageBox" Arg1="Virtual Keyboard">Y = Toggles the Shift key\nX = Deletes before the cursor\nBlack = Deletes after the cursor\nWhite = Toggles Symbols and Alphabet\nL or R ThumbPress = Caps Lock\nLT = Moves the cursor to the left\nRT = Moves the cursor to the right\nStart = Finish and accept the entered values</Item>
+        </List>
+      </List>
+      <List Text="Password" Batch="True">
+        <Item Action="MessageBox" Arg1="Password">If asked for password; it's "Xbox".\nFour letters, one uppercase and without the quotes.</Item>
+      </List>
+    </List>
+    <List Text="Power" Sort="Off">
+      <Item Action="Restart">Restart UnleashX</Item>
+      <Item Action="PowerCycle">Reboot XBox</Item>
+      <Item Action="Shutdown">Shutdown</Item>
+    </List>
+  </Menu>
+</UnleashX>
