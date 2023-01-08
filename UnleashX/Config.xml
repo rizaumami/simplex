@@ -7,7 +7,7 @@
       <IP>192.168.0.6</IP>
       <Subnet>255.255.255.0</Subnet>
       <Gateway>192.168.0.1</Gateway>
-      <!-- Insignia DNS -->
+      <!-- Insignia DNS: https://insignia.live/connect -->
       <DNS1>192.168.20.87</DNS1>
       <DNS2>1.1.1.1</DNS2>
       <AutoDetect>Yes</AutoDetect>
@@ -21,16 +21,17 @@
       <Greeting>Welcome to XBOX FTP Server</Greeting>
       <Boost>Yes</Boost>
     </FTP>
+    <!-- Not compatible with current RSS format used by most modern sites. -->
     <Newsfeed Enable="False" Interval="30">
       <URL>www.xbox-scene.com/xbox1data/xbox-scene.xml</URL>
       <URL>www.xbins.org/xbins.xml</URL>
     </Newsfeed>
     <Preference>
       <Games AutoLaunch="No" />
-      <DVD AutoLaunch="No">E:\Applications\DVDX\default.xbe</DVD>
       <AudioCD AutoLaunch="No">C:\Xboxdash.xbe</AudioCD>
       <Data AutoLaunch="No" />
-      <SNTP Synchronize="Yes">139.143.5.30</SNTP>
+      <!-- https://gist.github.com/mutin-sa/eea1c396b1e610a2da1e5550d94b0453 -->
+      <SNTP Synchronize="Yes">time.google.com</SNTP>
       <UseFahrenheit>No</UseFahrenheit>
       <FanSpeed>2.00</FanSpeed>
       <ScreenSaver Wait="300" Type="1" EnableBGM="No">
@@ -67,12 +68,14 @@
       <Path>G:\Emulators</Path>
     </List>
     <List Text="Applications" Sort="On" DelayLoad="True">
+      <Path>E:\Apps</Path>
       <Path>E:\Applications</Path>
     </List>
     <List Text="System" Sort="No">
       <Item Action="Filemanager">File Manager</Item>
       <List Text="Dashboards" Sort="On" Auto="On">
         <Path>E:\Dashboards</Path>
+        <Path>E:\Dash</Path>
       </List>
       <Item Action="Settings">Settings</Item>
       <Item Action="Skins">Skins</Item>
@@ -105,9 +108,11 @@
         <Item Action="Delete" Arg="E:\UDATA\9e115330\0064122817A8\recent.dat" />
         <Item Action="MessageBox" Arg1="Complete">Recent list cleared, this may require you to reload the dashboard if list is still populated.</Item>
       </List>
-      <List Text="Reset UnleashX" Password="Xbox" Sort="Off" Batch="True">
-        <Item Action="AskUser" Arg1="WARNING!">Restore UnleashX to its initial state.\nDo not interrupt, or it will render your xbox useless.\n\nDo you have proper recovery methods?\nIf not, please hit that No button.</Item>
+      <List Text="Reset SimpleX" Password="Xbox" Sort="Off" Batch="True">
+        <Item Action="AskUser" Arg1="WARNING!">Restore SimpleX to its initial state.\nDo not interrupt, or it will render your xbox useless.\n\nDo you have proper recovery methods?\nIf not, please hit that No button.</Item>
+        <Item Action="Delete" Arg1="E:\Dashboards\UnleashX\Skins\Grid" />
         <Item Action="Delete" Arg1="E:\Dashboards\UnleashX\Skins\SimpleX" />
+        <Item Action="Delete" Arg1="E:\Dashboards\UnleashX\Skins\SMPTE Color Bars" />
         <Item Action="Unzip" Arg1="E:\Dashboards\UnleashX\UnleashX.zip" Arg2="E:\Dashboards\UnleashX" />
         <Item Action="PowerCycle" />
       </List>

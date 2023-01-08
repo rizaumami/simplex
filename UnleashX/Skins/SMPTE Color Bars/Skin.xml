@@ -1,0 +1,48 @@
+<!--
+  Info: https://en.wikipedia.org/wiki/SMPTE_color_bars
+  Image source: https://upload.wikimedia.org/wikipedia/commons/6/66/SMPTE_Color_Bars.svg
+  How to use: https://www.videouniversity.com/articles/color-bars-and-how-to-use-em/
+
+  Colors are in ARGB.
+-->
+<Skin name="SMPTE Color Bars">
+	<Information>
+		<Author>si_kabayan</Author>
+		<Copyright>Copyright 2023</Copyright>
+		<Version>0.1</Version>
+	</Information>
+  <LoadingScreen ShowInfo="False" />
+	<Main Globe="False" Orb="False" Fog="False">
+    <!-- Top -->
+    <Shape Type="Rectangle" Left="1" Top="0" Width="92" Height="320" BackColor="0xFFC0C0C0" />
+    <Shape Type="Rectangle" Left="93" Top="0" Width="92" Height="320" BackColor="0xFFC0C000" />
+    <Shape Type="Rectangle" Left="185" Top="0" Width="92" Height="320" BackColor="0xFF00C0C0" />
+    <Shape Type="Rectangle" Left="277" Top="0" Width="91" Height="320" BackColor="0xFF00C000" />
+    <Shape Type="Rectangle" Left="368" Top="0" Width="91" Height="320" BackColor="0xFFC000C0" />
+    <Shape Type="Rectangle" Left="459" Top="0" Width="91" Height="320" BackColor="0xFFC00000" />
+    <Shape Type="Rectangle" Left="550" Top="0" Width="91" Height="320" BackColor="0xFF0000C0" />
+    <!-- Middle -->
+    <Shape Type="Rectangle" Left="1" Top="321" Width="92" Height="40" BackColor="0xFF0000C0" />
+    <Shape Type="Rectangle" Left="93" Top="321" Width="92" Height="40" BackColor="0xFF131313" />
+    <Shape Type="Rectangle" Left="185" Top="321" Width="92" Height="40" BackColor="0xFFC000C0" />
+    <Shape Type="Rectangle" Left="277" Top="321" Width="91" Height="40" BackColor="0xFF131313" />
+    <Shape Type="Rectangle" Left="368" Top="321" Width="91" Height="40" BackColor="0xFF00C0C0" />
+    <Shape Type="Rectangle" Left="459" Top="321" Width="91" Height="40" BackColor="0xFF131313" />
+    <Shape Type="Rectangle" Left="550" Top="321" Width="91" Height="40" BackColor="0xFFC0C0C0" />
+    <!-- Bottom -->
+    <Shape Type="Rectangle" Left="1" Top="360" Width="114" Height="120" BackColor="0xFF00214C" />
+    <Shape Type="Rectangle" Left="115" Top="360" Width="114" Height="120" BackColor="0xFFFFFFFF" />
+    <Shape Type="Rectangle" Left="229" Top="360" Width="114" Height="120" BackColor="0xFF32006A" />
+    <Shape Type="Rectangle" Left="343" Top="360" Width="116" Height="120" BackColor="0xFF131313" />
+    <Shape Type="Rectangle" Left="459" Top="360" Width="30" Height="120" BackColor="0xFF090909" />
+    <Shape Type="Rectangle" Left="489" Top="360" Width="31" Height="120" BackColor="0xFF131313" />
+    <Shape Type="Rectangle" Left="520" Top="360" Width="30" Height="120" BackColor="0xFF1D1D1D" />
+    <Shape Type="Rectangle" Left="550" Top="360" Width="91" Height="120" BackColor="0xFF131313" />
+    <!-- Menu -->
+    <Menu ShowIcon="False">
+		 	<ItemPos Left="235" Top="370" />
+			<ItemPos Left="235" Top="400" />
+			<ItemPos Left="235" Top="430" />
+		</Menu>
+	</Main>
+</Skin>
