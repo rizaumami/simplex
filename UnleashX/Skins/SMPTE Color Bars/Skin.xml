@@ -6,13 +6,13 @@
   Colors are in ARGB.
 -->
 <Skin name="SMPTE Color Bars">
-	<Information>
-		<Author>si_kabayan</Author>
-		<Copyright>Copyright 2023</Copyright>
-		<Version>0.1</Version>
-	</Information>
+  <Information>
+    <Author>si_kabayan</Author>
+    <Copyright>Copyright 2023</Copyright>
+    <Version>0.1</Version>
+  </Information>
   <LoadingScreen ShowInfo="False" />
-	<Main Globe="False" Orb="False" Fog="False">
+  <Main Globe="False" Orb="False" Fog="False">
     <!-- Top -->
     <Shape Type="Rectangle" Left="1" Top="0" Width="92" Height="320" BackColor="0xFFC0C0C0" />
     <Shape Type="Rectangle" Left="93" Top="0" Width="92" Height="320" BackColor="0xFFC0C000" />
@@ -40,9 +40,9 @@
     <Shape Type="Rectangle" Left="550" Top="360" Width="91" Height="120" BackColor="0xFF131313" />
     <!-- Menu -->
     <Menu ShowIcon="False">
-		 	<ItemPos Left="235" Top="370" />
-			<ItemPos Left="235" Top="400" />
-			<ItemPos Left="235" Top="430" />
-		</Menu>
-	</Main>
+       <ItemPos Left="235" Top="370" />
+      <ItemPos Left="235" Top="400" />
+      <ItemPos Left="235" Top="430" />
+    </Menu>
+  </Main>
 </Skin>

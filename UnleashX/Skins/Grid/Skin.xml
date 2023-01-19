@@ -10,13 +10,13 @@
   - Black = 0xFF000000
 -->
 <Skin name="Grid">
-	<Information>
-		<Author>si_kabayan</Author>
-		<Copyright>Copyright 2023</Copyright>
-		<Version>0.1</Version>
-	</Information>
+  <Information>
+    <Author>si_kabayan</Author>
+    <Copyright>Copyright 2023</Copyright>
+    <Version>0.1</Version>
+  </Information>
   <LoadingScreen ShowInfo="False" />
-	<Main Globe="False" Orb="False" Fog="False">
+  <Main Globe="False" Orb="False" Fog="False">
     <!-- Background -->
     <Shape Type="Rectangle" Left="1" Top="1" Width="640" Height="480" BackColor="0xFF000000" />
     <!-- Menu -->
@@ -398,5 +398,5 @@
     <Shape Type="Rectangle" Left="558" Top="462" Width="4" Height="4" BackColor="0xFFFF0000" />
     <Shape Type="Rectangle" Left="590" Top="462" Width="4" Height="4" BackColor="0xFFFF0000" />
     <Shape Type="Rectangle" Left="622" Top="462" Width="4" Height="4" BackColor="0xFFFF0000" />
-	</Main>
+  </Main>
 </Skin>
