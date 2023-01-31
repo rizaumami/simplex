@@ -1,0 +1,46 @@
+v0.4
+
+- Replace custom font in Main Menu by embeded one (InfoFont).
+  InfoFont is the same font (Xbox Book) with the custom but in smaller size.
+  Custom font is Xbox Book 17 and InfoFont is xboxbook 14.
+- Now, Main Menu is smaller so I think it would be better if tags also smaller
+  than Main Menu. Now tags using SmallFont (xboxbook 12).
+- Enable Scroll in Menu to accomodate long game's title. Now active menu with
+  long name will scroll right to left.
+- Rename SMPTE Color Bars to SMPTE Color Bars 75 as it's a 75% intensity variant.
+- Smaller Icon.jpg. Compressed using yoga. Picture quality probably shit on big
+  screen, but it's looks good enough on my 21" CRT TV.
+- Bring back Shape to give cover art border as it's simpler than edit Icon.jpg
+  to give it border.
+
+--------------------------------------------------------------------------------
+
+v0.3
+2023-01-08 10:37:35
+
+- Remove Shape and use slightly bigger cover art image to create pseudo border.
+- Simplify Menu code by letting UnleashX to manage main menu by using Position
+  instead of ItemPos. This has side effect of narrower menu items line.
+- Remove line defining unused font.
+
+--------------------------------------------------------------------------------
+
+v0.2
+2023-01-08 10:37:35
+
+- Add Grid skin to calibrate CRT's geometry.
+  This grid is a copy of 240p grid from 240pTestSuite.
+  At first I want 480 version but the UnleashX can't display it properly.
+  Perhaps it's a limitation of its XML parser.
+- Add SMPTE Color Bars (75) to calibrate CRT's colours.
+- Change SNTP server to time.google.com.
+
+--------------------------------------------------------------------------------
+
+v0.1
+2023-01-07 01:58:02
+
+Initial release.
+
+SimpleX is a simple UnleashX skin. It's aim for simplicity both in code and in
+presentation, especially on standard definition CRT TV.

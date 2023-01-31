@@ -5,7 +5,7 @@
 
   Colors are in ARGB.
 -->
-<Skin name="SMPTE Color Bars">
+<Skin name="SMPTE Color Bars 75">
   <Information>
     <Author>si_kabayan</Author>
     <Copyright>Copyright 2023</Copyright>
@@ -40,7 +40,7 @@
     <Shape Type="Rectangle" Left="550" Top="360" Width="91" Height="120" BackColor="0xFF131313" />
     <!-- Menu -->
     <Menu ShowIcon="False">
-       <ItemPos Left="235" Top="370" />
+      <ItemPos Left="235" Top="370" />
       <ItemPos Left="235" Top="400" />
       <ItemPos Left="235" Top="430" />
     </Menu>

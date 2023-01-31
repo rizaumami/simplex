@@ -1,35 +1,42 @@
-<Skin name="SimpleX 0.3">
+<Skin name="SimpleX 0.4">
   <Information>
     <Author>si_kabayan</Author>
     <Copyright>Copyright 2023</Copyright>
-    <Version>0.3</Version>
+    <Version>0.4</Version>
   </Information>
   <LoadingScreen ShowInfo="False" />
   <Main Globe="True" Orb="False">
+    <!-- Border for games cover/icon. -->
+    <Shape Type="Rectangle" Left="45" Top="74" Width="202" Height="285" BorderColor="0xFFFFFFFF" />
     <!-- Image source: https://redd.it/flif3q -->
-    <Image Left="45" Top="74" Width="202" Height="285">Icon.jpg</Image>
-    <!-- Image from GameIcon will always on top. -->
+    <Image Left="46" Top="75" Width="200" Height="283">Icon.jpg</Image>
     <Image Left="46" Top="75" Width="200" Height="283" Source="GameIcon" />
-    <Menu Smooth="True" ShowIcon="False" Rotate="True" ShowArrows="False">
-      <font>XBox_Book_17.xpr</font>
-      <Position Top="75" Left="275" Width="320" Height="285" Fixed="True" />
+    <Menu Smooth="True" ShowIcon="False" Rotate="True" ShowArrows="False" Scroll="True">
+      <Font>InfoFont</Font>
+      <Position Top="74" Left="275" Width="320" Height="286" Fixed="True" />
     </Menu>
+    <InfoFont>SmallFont</InfoFont>
     <Text Left="605" Top="430" Align="Right" Color="0xFF73AA10" Source="IP" />
     <Text Left="45" Top="430" Align="Left" Color="0xFF73AA10" Source="$DateTime$" />
   </Main>
 
   <ColorScheme Name="Default">
-    <!-- Music menu playlist screen -->
-    <MMActiveForeColor>0xBFFFFFFF</MMActiveForeColor>
-    <MMForeColor>0xBFFFFFFF</MMForeColor>
-    <MMDarkBackColor>0xFF052500</MMDarkBackColor>
-    <MMLightBackColor>0xFF052500</MMLightBackColor>
+    <!-- Music Player -->
     <MM_BORDERCOLOR>0x7FFFFFFF</MM_BORDERCOLOR>
-    <!-- Visualisation colour -->
+    <MMActiveForeColor>0xBFFFFFFF</MMActiveForeColor>
+    <!-- Text, Led color -->
+    <MMForeColor>0xBFFFFFFF</MMForeColor>
+    <!-- Led color -->
+    <MMOffForeColor>0x7FFFFFFF</MMOffForeColor>
+    <!-- Backcolor of the Soundtrack manager -->
+    <MMDarkBackColor>0xFF052500</MMDarkBackColor>
+    <!-- Lighter Backcolor of the Soundtrack manager -->
+    <MMLightBackColor>0xFF052500</MMLightBackColor>
+    <!-- Color of low peak meter indicator -->
     <MMDarkBarColor>0x7FFFFFFF</MMDarkBarColor>
     <!-- Spectrum bar -->
     <MMBarBackColor>0x7FFFFFFF</MMBarBackColor>
-    <MMOffForeColor>0x7FFFFFFF</MMOffForeColor>
+    <!-- Color of high peak meter indicator -->
     <MMLightBarColor>0x7FFFFFFF</MMLightBarColor>
     <!-- Text editor window -->
     <WINDOWBACKCOLOR>0xFFFFFFFF</WINDOWBACKCOLOR>
@@ -44,7 +51,7 @@
     <!-- Dialogs, ie, Batch process and progress bars eg... -->
     <DIALOG_BORDERCOLOR>0xFF008000</DIALOG_BORDERCOLOR>
     <DIALOG_BACKCOLOR>0xFF052500</DIALOG_BACKCOLOR>
-    <DIALOG_INNER_BORDERCOLOR>0xFFFFE2B4</DIALOG_INNER_BORDERCOLOR>
+    <DIALOG_INNER_BORDERCOLOR>0x55FFFFFF</DIALOG_INNER_BORDERCOLOR>
     <DIALOG_INNER_BACKCOLOR>0xE1072700</DIALOG_INNER_BACKCOLOR>
     <DIALOG_TEXTCOLOR>0xFFFFFFFF</DIALOG_TEXTCOLOR>
     <DIALOG_DISABLEDTEXT>0x55FFFFFF</DIALOG_DISABLEDTEXT>
