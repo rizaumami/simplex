@@ -74,6 +74,7 @@
     <List Text="System" Sort="No">
       <Item Action="Filemanager">File Manager</Item>
       <List Text="Dashboards" Sort="On" Auto="On">
+        <Item Action="C:\xboxdash.xbe">Microsoft Dashboard</Item>
         <Path>E:\Dashboards</Path>
         <Path>E:\Dash</Path>
       </List>
@@ -110,10 +111,11 @@
       </List>
       <List Text="Reset SimpleX" Password="Xbox" Sort="Off" Batch="True">
         <Item Action="AskUser" Arg1="WARNING!">Restore SimpleX to its initial state.\nDo not interrupt, or it will render your xbox useless.\n\nDo you have proper recovery methods?\nIf not, please hit that No button.</Item>
-        <Item Action="Delete" Arg1="E:\Dashboards\UnleashX\Skins\Grid" />
-        <Item Action="Delete" Arg1="E:\Dashboards\UnleashX\Skins\SimpleX" />
-        <Item Action="Delete" Arg1="E:\Dashboards\UnleashX\Skins\SMPTE Color Bars" />
-        <Item Action="Unzip" Arg1="E:\Dashboards\UnleashX\UnleashX.zip" Arg2="E:\Dashboards\UnleashX" />
+        <!-- D:\ is current working directory, not optical drive. -->
+        <Item Action="Delete" Arg1="D:\Skins\Grid" />
+        <Item Action="Delete" Arg1="D:\Skins\SimpleX" />
+        <Item Action="Delete" Arg1="D:\Skins\SMPTE Color Bars" />
+        <Item Action="Unzip" Arg1="D:\UnleashX.zip" Arg2="D:\" />
         <Item Action="PowerCycle" />
       </List>
     </List>

@@ -22,6 +22,7 @@
 
   <ColorScheme Name="Default">
     <!-- Music Player -->
+    <!-- Peak meter and running text border -->
     <MM_BORDERCOLOR>0x7FFFFFFF</MM_BORDERCOLOR>
     <MMActiveForeColor>0xBFFFFFFF</MMActiveForeColor>
     <!-- Text, Led color -->

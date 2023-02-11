@@ -1,3 +1,11 @@
+v0.5
+
+I just remember that UnleashX treat D:\ similar to current working directory,
+not literal D drive. This is usefull for the Reset UnleashX feature as Config.xml
+now can be placed anywhere and still will be works.
+
+--------------------------------------------------------------------------------
+
 v0.4
 
 - Replace custom font in Main Menu by embeded one (InfoFont).

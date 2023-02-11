@@ -6,20 +6,7 @@ SimpleX is a simple UnleashX skin.
 
 ## How to install
 
-1. Skins folder can be directly copied to UnleashX folder on ogxbox.
+For full SimpleX experience, transfer UnleashX folder to your dashboard (usually in `E:\Dashboards` or `E:\Dash`) folder in the ogxbox.  \
+It is recommended try it as an app for a while before make it as your main dashboard.
 
-2. [Config.xml](UnleashX/Config.xml) need some treatment before use.
-  Because there is no consensus where to put applications on ogxbox. Is it in `C:\Apps`, ` E:\Apps`, `C:\Applications`, `E:\Applications`, `C:\Dash`, `E:\Dash`, `C:\Dashboard`, `E:\Dashboard`, etc....
-
-    SimpleX look into `E:\Dashboards` for its "Reset Simplex" feature. These need to be replaced with the actual paths in ogxbox. \
-    Just edit `Config.xml` on your favourite text editor and do some sort of "find & replace".
-
-    If your paths is `E:\Dash`, on Linux you can use the following commands:
-
-    ```bash
-    sed -i 's/E:\\Dashboards/E:\\Dash/g' Config.xml
-    ```
-
-3. Transfer UnleashX folder to `E:\Dashboards` or `E:\Dash` in the ogxbox.
-
-4. Powercyle UnleashX and hope nothings bad happens ;).
+If you just interested for the skins, copy Skins folder to your ogxbox UnleashX's skins folder.
