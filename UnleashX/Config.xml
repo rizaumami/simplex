@@ -41,7 +41,7 @@
       <EnableDriveF>True</EnableDriveF>
       <EnableDriveG>True</EnableDriveG>
       <LEDColor>Default</LEDColor>
-      <Skin Path="E:\Dashboards\Unleashx\Skins">SimpleX</Skin>
+      <Skin Path="D:\Skins">SimpleX</Skin>
       <TempThreshold>50</TempThreshold>
       <LiveUpdate AutoCheck="No"></LiveUpdate>
       <VideoSettings Use480P="No" Use720P="No" Use1080I="No" Widescreen="No" Soften="No" Use16bit="False" FilterLevel="0" UsePAL60="Yes" FastRefresh="Yes"></VideoSettings>
@@ -114,7 +114,7 @@
         <!-- D:\ is current working directory, not optical drive. -->
         <Item Action="Delete" Arg1="D:\Skins\Grid" />
         <Item Action="Delete" Arg1="D:\Skins\SimpleX" />
-        <Item Action="Delete" Arg1="D:\Skins\SMPTE Color Bars" />
+        <Item Action="Delete" Arg1="D:\Skins\SMPTE Color Bars 75" />
         <Item Action="Unzip" Arg1="D:\UnleashX.zip" Arg2="D:\" />
         <Item Action="PowerCycle" />
       </List>

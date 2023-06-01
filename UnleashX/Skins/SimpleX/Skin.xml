@@ -2,7 +2,7 @@
   <Information>
     <Author>si_kabayan</Author>
     <Copyright>Copyright 2023</Copyright>
-    <Version>0.4</Version>
+    <Version>0.6</Version>
   </Information>
   <LoadingScreen ShowInfo="False" />
   <Main Globe="True" Orb="False">

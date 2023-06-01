@@ -1,3 +1,11 @@
+v0.6
+
+- Regression fix. Reset SimpleX failed when UX try to delete SMPTE Color Bars
+  which was renamed to SMPTE Color Bars 75 in v0.4.
+- Bump version to v0.6.
+
+--------------------------------------------------------------------------------
+
 v0.5
 
 I just remember that UnleashX treat D:\ similar to current working directory,
