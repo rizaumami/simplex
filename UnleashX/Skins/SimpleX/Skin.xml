@@ -1,23 +1,24 @@
 <Skin name="SimpleX 0.4">
   <Information>
     <Author>si_kabayan</Author>
-    <Copyright>Copyright 2023</Copyright>
-    <Version>0.6</Version>
+    <Copyright>Copyright 2023-2024</Copyright>
+    <Version>0.7</Version>
   </Information>
   <LoadingScreen ShowInfo="False" />
   <Main Globe="True" Orb="False">
     <!-- Border for games cover/icon. -->
-    <Shape Type="Rectangle" Left="45" Top="74" Width="202" Height="285" BorderColor="0xFFFFFFFF" />
+    <Shape Type="Rectangle" Left="45" Top="99" Width="202" Height="285" BorderColor="0xFFFFFFFF" />
     <!-- Image source: https://redd.it/flif3q -->
-    <Image Left="46" Top="75" Width="200" Height="283">Icon.jpg</Image>
-    <Image Left="46" Top="75" Width="200" Height="283" Source="GameIcon" />
+    <Image Left="46" Top="100" Width="200" Height="283">Icon.jpg</Image>
+    <Image Left="46" Top="100" Width="200" Height="283" Source="GameIcon" />
     <Menu Smooth="True" ShowIcon="False" Rotate="True" ShowArrows="False" Scroll="True">
       <Font>InfoFont</Font>
-      <Position Top="74" Left="275" Width="320" Height="286" Fixed="True" />
+      <Position Top="99" Left="275" Width="320" Height="286" Fixed="True" />
     </Menu>
     <InfoFont>SmallFont</InfoFont>
-    <Text Left="605" Top="430" Align="Right" Color="0xFF73AA10" Source="IP" />
-    <Text Left="45" Top="430" Align="Left" Color="0xFF73AA10" Source="$DateTime$" />
+    <Text Left="45" Top="40" Width="550" Align="Left" Color="0xFF73AA10" Source="$Newsfeed$" />
+    <Text Left="605" Top="425" Align="Right" Color="0xFF73AA10" Source="IP" />
+    <Text Left="45" Top="425" Align="Left" Color="0xFF73AA10" Source="$DateTime$" />
   </Main>
 
   <ColorScheme Name="Default">

@@ -21,10 +21,8 @@
       <Greeting>Welcome to XBOX FTP Server</Greeting>
       <Boost>Yes</Boost>
     </FTP>
-    <!-- Not compatible with current RSS format used by most modern sites. -->
-    <Newsfeed Enable="False" Interval="30">
-      <URL>www.xbox-scene.com/xbox1data/xbox-scene.xml</URL>
-      <URL>www.xbins.org/xbins.xml</URL>
+    <Newsfeed Enable="True" Interval="30">
+      <URL>www.ogxbox.org/rss/insignia.xml</URL>
     </Newsfeed>
     <Preference>
       <Games AutoLaunch="No" />
@@ -49,10 +47,12 @@
       <AutoSetTime>Yes</AutoSetTime>
       <Use24HFormat>Yes</Use24HFormat>
       <ContextMenu LinkToSave="Yes" AllowItemEdit="No"></ContextMenu>
+      <DVD AutoLaunch="No">C:\xboxdash.xbe</DVD>
+      <AutoPatch>No</AutoPatch>
     </Preference>
     <Shortcut></Shortcut>
     <Audio>
-      <EnableSoundTrack Enable_5_1="No">Yes</EnableSoundTrack>
+      <EnableSoundTrack Enable_5_1="No" Random="Yes" Global="Yes">Yes</EnableSoundTrack>
       <MusicVolume>100</MusicVolume>
       <SoundVolume>100</SoundVolume>
     </Audio>
