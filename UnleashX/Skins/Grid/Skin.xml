@@ -12,8 +12,8 @@
 <Skin name="Grid">
   <Information>
     <Author>si_kabayan</Author>
-    <Copyright>Copyright 2023</Copyright>
-    <Version>0.1</Version>
+    <Copyright>Copyright 2024</Copyright>
+    <Version>0.2</Version>
   </Information>
   <LoadingScreen ShowInfo="False" />
   <Main Globe="False" Orb="False" Fog="False">
@@ -24,79 +24,79 @@
       <Position Top="200" Left="180" Height="90" MaxItem="3" />
     </Menu>
     <!-- Horizontal Red -->
-    <Shape Type="Rectangle" Left="1" Top="1" Width="640" Height="2" BackColor="0xFFFF0000" />
-    <Shape Type="Rectangle" Left="1" Top="31" Width="640" Height="4" BackColor="0xFFFF0000" />
-    <Shape Type="Rectangle" Left="1" Top="63" Width="640" Height="4" BackColor="0xFFFF0000" />
-    <Shape Type="Rectangle" Left="1" Top="95" Width="640" Height="4" BackColor="0xFFFF0000" />
-    <Shape Type="Rectangle" Left="1" Top="127" Width="640" Height="4" BackColor="0xFFFF0000" />
-    <Shape Type="Rectangle" Left="1" Top="159" Width="640" Height="4" BackColor="0xFFFF0000" />
-    <Shape Type="Rectangle" Left="1" Top="191" Width="640" Height="4" BackColor="0xFFFF0000" />
-    <Shape Type="Rectangle" Left="1" Top="223" Width="640" Height="4" BackColor="0xFFFF0000" />
-    <Shape Type="Rectangle" Left="1" Top="255" Width="640" Height="4" BackColor="0xFFFF0000" />
-    <Shape Type="Rectangle" Left="1" Top="287" Width="640" Height="4" BackColor="0xFFFF0000" />
-    <Shape Type="Rectangle" Left="1" Top="319" Width="640" Height="4" BackColor="0xFFFF0000" />
-    <Shape Type="Rectangle" Left="1" Top="351" Width="640" Height="4" BackColor="0xFFFF0000" />
-    <Shape Type="Rectangle" Left="1" Top="383" Width="640" Height="4" BackColor="0xFFFF0000" />
-    <Shape Type="Rectangle" Left="1" Top="415" Width="640" Height="4" BackColor="0xFFFF0000" />
-    <Shape Type="Rectangle" Left="1" Top="447" Width="640" Height="4" BackColor="0xFFFF0000" />
-    <Shape Type="Rectangle" Left="1" Top="479" Width="640" Height="4" BackColor="0xFFFF0000" />
+    <Shape Type="Rectangle" Left="0" Top="0" Width="640" Height="2" BackColor="0xFFFF0000" />
+    <Shape Type="Rectangle" Left="0" Top="30" Width="640" Height="4" BackColor="0xFFFF0000" />
+    <Shape Type="Rectangle" Left="0" Top="62" Width="640" Height="4" BackColor="0xFFFF0000" />
+    <Shape Type="Rectangle" Left="0" Top="94" Width="640" Height="4" BackColor="0xFFFF0000" />
+    <Shape Type="Rectangle" Left="0" Top="126" Width="640" Height="4" BackColor="0xFFFF0000" />
+    <Shape Type="Rectangle" Left="0" Top="158" Width="640" Height="4" BackColor="0xFFFF0000" />
+    <Shape Type="Rectangle" Left="0" Top="190" Width="640" Height="4" BackColor="0xFFFF0000" />
+    <Shape Type="Rectangle" Left="0" Top="222" Width="640" Height="4" BackColor="0xFFFF0000" />
+    <Shape Type="Rectangle" Left="0" Top="254" Width="640" Height="4" BackColor="0xFFFF0000" />
+    <Shape Type="Rectangle" Left="0" Top="286" Width="640" Height="4" BackColor="0xFFFF0000" />
+    <Shape Type="Rectangle" Left="0" Top="318" Width="640" Height="4" BackColor="0xFFFF0000" />
+    <Shape Type="Rectangle" Left="0" Top="350" Width="640" Height="4" BackColor="0xFFFF0000" />
+    <Shape Type="Rectangle" Left="0" Top="382" Width="640" Height="4" BackColor="0xFFFF0000" />
+    <Shape Type="Rectangle" Left="0" Top="414" Width="640" Height="4" BackColor="0xFFFF0000" />
+    <Shape Type="Rectangle" Left="0" Top="446" Width="640" Height="4" BackColor="0xFFFF0000" />
+    <Shape Type="Rectangle" Left="0" Top="478" Width="640" Height="4" BackColor="0xFFFF0000" />
     <!-- Vertical Red -->
-    <Shape Type="Rectangle" Left="1" Top="1" Width="2" Height="480" BackColor="0xFFFF0000" />
-    <Shape Type="Rectangle" Left="31" Top="1" Width="4" Height="480" BackColor="0xFFFF0000" />
-    <Shape Type="Rectangle" Left="63" Top="1" Width="4" Height="480" BackColor="0xFFFF0000" />
-    <Shape Type="Rectangle" Left="95" Top="1" Width="4" Height="480" BackColor="0xFFFF0000" />
-    <Shape Type="Rectangle" Left="127" Top="1" Width="4" Height="480" BackColor="0xFFFF0000" />
-    <Shape Type="Rectangle" Left="159" Top="1" Width="4" Height="480" BackColor="0xFFFF0000" />
-    <Shape Type="Rectangle" Left="191" Top="1" Width="4" Height="480" BackColor="0xFFFF0000" />
-    <Shape Type="Rectangle" Left="223" Top="1" Width="4" Height="480" BackColor="0xFFFF0000" />
-    <Shape Type="Rectangle" Left="255" Top="1" Width="4" Height="480" BackColor="0xFFFF0000" />
-    <Shape Type="Rectangle" Left="287" Top="1" Width="4" Height="480" BackColor="0xFFFF0000" />
-    <Shape Type="Rectangle" Left="319" Top="1" Width="4" Height="480" BackColor="0xFFFF0000" />
-    <Shape Type="Rectangle" Left="351" Top="1" Width="4" Height="480" BackColor="0xFFFF0000" />
-    <Shape Type="Rectangle" Left="383" Top="1" Width="4" Height="480" BackColor="0xFFFF0000" />
-    <Shape Type="Rectangle" Left="415" Top="1" Width="4" Height="480" BackColor="0xFFFF0000" />
-    <Shape Type="Rectangle" Left="447" Top="1" Width="4" Height="480" BackColor="0xFFFF0000" />
-    <Shape Type="Rectangle" Left="479" Top="1" Width="4" Height="480" BackColor="0xFFFF0000" />
-    <Shape Type="Rectangle" Left="511" Top="1" Width="4" Height="480" BackColor="0xFFFF0000" />
-    <Shape Type="Rectangle" Left="543" Top="1" Width="4" Height="480" BackColor="0xFFFF0000" />
-    <Shape Type="Rectangle" Left="575" Top="1" Width="4" Height="480" BackColor="0xFFFF0000" />
-    <Shape Type="Rectangle" Left="607" Top="1" Width="4" Height="480" BackColor="0xFFFF0000" />
-    <Shape Type="Rectangle" Left="639" Top="1" Width="4" Height="480" BackColor="0xFFFF0000" />
+    <Shape Type="Rectangle" Left="0" Top="0" Width="2" Height="480" BackColor="0xFFFF0000" />
+    <Shape Type="Rectangle" Left="30" Top="0" Width="4" Height="480" BackColor="0xFFFF0000" />
+    <Shape Type="Rectangle" Left="62" Top="0" Width="4" Height="480" BackColor="0xFFFF0000" />
+    <Shape Type="Rectangle" Left="94" Top="0" Width="4" Height="480" BackColor="0xFFFF0000" />
+    <Shape Type="Rectangle" Left="126" Top="0" Width="4" Height="480" BackColor="0xFFFF0000" />
+    <Shape Type="Rectangle" Left="158" Top="0" Width="4" Height="480" BackColor="0xFFFF0000" />
+    <Shape Type="Rectangle" Left="190" Top="0" Width="4" Height="480" BackColor="0xFFFF0000" />
+    <Shape Type="Rectangle" Left="222" Top="0" Width="4" Height="480" BackColor="0xFFFF0000" />
+    <Shape Type="Rectangle" Left="254" Top="0" Width="4" Height="480" BackColor="0xFFFF0000" />
+    <Shape Type="Rectangle" Left="286" Top="0" Width="4" Height="480" BackColor="0xFFFF0000" />
+    <Shape Type="Rectangle" Left="318" Top="0" Width="4" Height="480" BackColor="0xFFFF0000" />
+    <Shape Type="Rectangle" Left="350" Top="0" Width="4" Height="480" BackColor="0xFFFF0000" />
+    <Shape Type="Rectangle" Left="382" Top="0" Width="4" Height="480" BackColor="0xFFFF0000" />
+    <Shape Type="Rectangle" Left="414" Top="0" Width="4" Height="480" BackColor="0xFFFF0000" />
+    <Shape Type="Rectangle" Left="446" Top="0" Width="4" Height="480" BackColor="0xFFFF0000" />
+    <Shape Type="Rectangle" Left="478" Top="0" Width="4" Height="480" BackColor="0xFFFF0000" />
+    <Shape Type="Rectangle" Left="510" Top="0" Width="4" Height="480" BackColor="0xFFFF0000" />
+    <Shape Type="Rectangle" Left="542" Top="0" Width="4" Height="480" BackColor="0xFFFF0000" />
+    <Shape Type="Rectangle" Left="574" Top="0" Width="4" Height="480" BackColor="0xFFFF0000" />
+    <Shape Type="Rectangle" Left="606" Top="0" Width="4" Height="480" BackColor="0xFFFF0000" />
+    <Shape Type="Rectangle" Left="638" Top="0" Width="4" Height="480" BackColor="0xFFFF0000" />
     <!-- Horizontal White -->
-    <Shape Type="Rectangle" Left="33" Top="33" Width="575" Height="2" BackColor="0xFFFFFFFF" />
-    <Shape Type="Rectangle" Left="33" Top="63" Width="575" Height="4" BackColor="0xFFFFFFFF" />
-    <Shape Type="Rectangle" Left="33" Top="95" Width="575" Height="4" BackColor="0xFFFFFFFF" />
-    <Shape Type="Rectangle" Left="33" Top="127" Width="575" Height="4" BackColor="0xFFFFFFFF" />
-    <Shape Type="Rectangle" Left="33" Top="159" Width="575" Height="4" BackColor="0xFFFFFFFF" />
-    <Shape Type="Rectangle" Left="33" Top="191" Width="575" Height="4" BackColor="0xFFFFFFFF" />
-    <Shape Type="Rectangle" Left="33" Top="223" Width="575" Height="4" BackColor="0xFFFFFFFF" />
-    <Shape Type="Rectangle" Left="33" Top="255" Width="575" Height="4" BackColor="0xFFFFFFFF" />
-    <Shape Type="Rectangle" Left="33" Top="287" Width="575" Height="4" BackColor="0xFFFFFFFF" />
-    <Shape Type="Rectangle" Left="33" Top="319" Width="575" Height="4" BackColor="0xFFFFFFFF" />
-    <Shape Type="Rectangle" Left="33" Top="351" Width="575" Height="4" BackColor="0xFFFFFFFF" />
-    <Shape Type="Rectangle" Left="33" Top="383" Width="575" Height="4" BackColor="0xFFFFFFFF" />
-    <Shape Type="Rectangle" Left="33" Top="415" Width="575" Height="4" BackColor="0xFFFFFFFF" />
-    <Shape Type="Rectangle" Left="33" Top="446" Width="575" Height="2" BackColor="0xFFFFFFFF" />
+    <Shape Type="Rectangle" Left="32" Top="32" Width="576" Height="2" BackColor="0xFFFFFFFF" />
+    <Shape Type="Rectangle" Left="32" Top="62" Width="576" Height="4" BackColor="0xFFFFFFFF" />
+    <Shape Type="Rectangle" Left="32" Top="94" Width="576" Height="4" BackColor="0xFFFFFFFF" />
+    <Shape Type="Rectangle" Left="32" Top="126" Width="576" Height="4" BackColor="0xFFFFFFFF" />
+    <Shape Type="Rectangle" Left="32" Top="158" Width="576" Height="4" BackColor="0xFFFFFFFF" />
+    <Shape Type="Rectangle" Left="32" Top="190" Width="576" Height="4" BackColor="0xFFFFFFFF" />
+    <Shape Type="Rectangle" Left="32" Top="222" Width="576" Height="4" BackColor="0xFFFFFFFF" />
+    <Shape Type="Rectangle" Left="32" Top="254" Width="576" Height="4" BackColor="0xFFFFFFFF" />
+    <Shape Type="Rectangle" Left="32" Top="286" Width="576" Height="4" BackColor="0xFFFFFFFF" />
+    <Shape Type="Rectangle" Left="32" Top="318" Width="576" Height="4" BackColor="0xFFFFFFFF" />
+    <Shape Type="Rectangle" Left="32" Top="350" Width="576" Height="4" BackColor="0xFFFFFFFF" />
+    <Shape Type="Rectangle" Left="32" Top="382" Width="576" Height="4" BackColor="0xFFFFFFFF" />
+    <Shape Type="Rectangle" Left="32" Top="414" Width="576" Height="4" BackColor="0xFFFFFFFF" />
+    <Shape Type="Rectangle" Left="32" Top="446" Width="576" Height="2" BackColor="0xFFFFFFFF" />
     <!-- Vertical White -->
-    <Shape Type="Rectangle" Left="33" Top="33" Width="2" Height="415" BackColor="0xFFFFFFFF" />
-    <Shape Type="Rectangle" Left="63" Top="33" Width="4" Height="415" BackColor="0xFFFFFFFF" />
-    <Shape Type="Rectangle" Left="95" Top="33" Width="4" Height="415" BackColor="0xFFFFFFFF" />
-    <Shape Type="Rectangle" Left="127" Top="33" Width="4" Height="415" BackColor="0xFFFFFFFF" />
-    <Shape Type="Rectangle" Left="159" Top="33" Width="4" Height="415" BackColor="0xFFFFFFFF" />
-    <Shape Type="Rectangle" Left="191" Top="33" Width="4" Height="415" BackColor="0xFFFFFFFF" />
-    <Shape Type="Rectangle" Left="223" Top="33" Width="4" Height="415" BackColor="0xFFFFFFFF" />
-    <Shape Type="Rectangle" Left="255" Top="33" Width="4" Height="415" BackColor="0xFFFFFFFF" />
-    <Shape Type="Rectangle" Left="287" Top="33" Width="4" Height="415" BackColor="0xFFFFFFFF" />
-    <Shape Type="Rectangle" Left="319" Top="33" Width="4" Height="415" BackColor="0xFFFFFFFF" />
-    <Shape Type="Rectangle" Left="351" Top="33" Width="4" Height="415" BackColor="0xFFFFFFFF" />
-    <Shape Type="Rectangle" Left="383" Top="33" Width="4" Height="415" BackColor="0xFFFFFFFF" />
-    <Shape Type="Rectangle" Left="415" Top="33" Width="4" Height="415" BackColor="0xFFFFFFFF" />
-    <Shape Type="Rectangle" Left="447" Top="33" Width="4" Height="415" BackColor="0xFFFFFFFF" />
-    <Shape Type="Rectangle" Left="479" Top="33" Width="4" Height="415" BackColor="0xFFFFFFFF" />
-    <Shape Type="Rectangle" Left="511" Top="33" Width="4" Height="415" BackColor="0xFFFFFFFF" />
-    <Shape Type="Rectangle" Left="543" Top="33" Width="4" Height="415" BackColor="0xFFFFFFFF" />
-    <Shape Type="Rectangle" Left="575" Top="33" Width="4" Height="415" BackColor="0xFFFFFFFF" />
-    <Shape Type="Rectangle" Left="606" Top="33" Width="2" Height="415" BackColor="0xFFFFFFFF" />
+    <Shape Type="Rectangle" Left="32" Top="32" Width="2" Height="416" BackColor="0xFFFFFFFF" />
+    <Shape Type="Rectangle" Left="62" Top="32" Width="4" Height="416" BackColor="0xFFFFFFFF" />
+    <Shape Type="Rectangle" Left="94" Top="32" Width="4" Height="416" BackColor="0xFFFFFFFF" />
+    <Shape Type="Rectangle" Left="126" Top="32" Width="4" Height="416" BackColor="0xFFFFFFFF" />
+    <Shape Type="Rectangle" Left="158" Top="32" Width="4" Height="416" BackColor="0xFFFFFFFF" />
+    <Shape Type="Rectangle" Left="190" Top="32" Width="4" Height="416" BackColor="0xFFFFFFFF" />
+    <Shape Type="Rectangle" Left="222" Top="32" Width="4" Height="416" BackColor="0xFFFFFFFF" />
+    <Shape Type="Rectangle" Left="254" Top="32" Width="4" Height="416" BackColor="0xFFFFFFFF" />
+    <Shape Type="Rectangle" Left="286" Top="32" Width="4" Height="416" BackColor="0xFFFFFFFF" />
+    <Shape Type="Rectangle" Left="318" Top="32" Width="4" Height="416" BackColor="0xFFFFFFFF" />
+    <Shape Type="Rectangle" Left="350" Top="32" Width="4" Height="416" BackColor="0xFFFFFFFF" />
+    <Shape Type="Rectangle" Left="382" Top="32" Width="4" Height="416" BackColor="0xFFFFFFFF" />
+    <Shape Type="Rectangle" Left="414" Top="32" Width="4" Height="416" BackColor="0xFFFFFFFF" />
+    <Shape Type="Rectangle" Left="446" Top="32" Width="4" Height="416" BackColor="0xFFFFFFFF" />
+    <Shape Type="Rectangle" Left="478" Top="32" Width="4" Height="416" BackColor="0xFFFFFFFF" />
+    <Shape Type="Rectangle" Left="510" Top="32" Width="4" Height="416" BackColor="0xFFFFFFFF" />
+    <Shape Type="Rectangle" Left="542" Top="32" Width="4" Height="416" BackColor="0xFFFFFFFF" />
+    <Shape Type="Rectangle" Left="574" Top="32" Width="4" Height="416" BackColor="0xFFFFFFFF" />
+    <Shape Type="Rectangle" Left="606" Top="32" Width="2" Height="416" BackColor="0xFFFFFFFF" />
     <!-- Squares -->
     <Shape Type="Rectangle" Left="14" Top="14" Width="4" Height="4" BackColor="0xFFFF0000" />
     <Shape Type="Rectangle" Left="46" Top="14" Width="4" Height="4" BackColor="0xFFFF0000" />
